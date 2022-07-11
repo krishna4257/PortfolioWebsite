@@ -7,7 +7,7 @@
 }
 
 body{
-    height:290vh !important;
+    height:320vh !important;
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: #151A33;
     -webkit-font-smoothing: antialiased;
@@ -39,6 +39,20 @@ nav .inner .logo {
     font-size: 20px;
     letter-spacing: 3px;
     font-weight: 500;
+}
+
+nav .inner .logo .backico{
+    background: transparent;
+    color: rgb(190, 190, 190);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    top:0.5rem;
+    left:3rem;
+    cursor: pointer;
 }
 
 nav .inner button{
@@ -80,10 +94,6 @@ section.profile .left h2{
 section.profile .left p{
     color: #8997bd;
     font-size: 14px;
-}
-
-section.profile .left .cd-headlines .cd-words-wrapper::after{
-    background: linear-gradient(#2b55cc, #1ecab8);
 }
 
 section.profile .left p b{
@@ -219,7 +229,7 @@ section.about .content .right p{
 }
 
 section.about .content .right p span:nth-child(1){
-    width: 130px;
+    width: 140px;
     float: left;
     font-weight: 500;
     padding-right: 10px;
@@ -332,10 +342,45 @@ section.skills .skills_wrapper .skill-box .progress_wrap .progress_bar .per{
     position: absolute;
     right: 0;
     top: 0;
+    margin-top: 10px;
     margin-bottom: 10px;
     color: #848db3;
     font-size: 16px;
     text-transform: uppercase;
+}
+
+section.Projects{
+    color: white;
+}
+
+section.Projects .content .tab{
+    margin-bottom: 2.0rem;
+    margin-left: 15px;
+    position: relative;
+}
+
+section.Projects .content .tab h6{
+    font-size: 16px;
+    margin-top: 0.5rem;
+    color: #8997bd;
+    line-height: 1.7;
+}
+
+section.Projects .content .tab h6:after{
+    content: ' :-';
+    position: relative;
+}
+
+section.Projects .content .tab a{
+    font-size: 14px;
+    color: #848db3;
+    line-height: 1.7;
+    margin-left: 25px;
+}
+
+section.Projects .content .tab a:before{
+    content: '- ';
+    position: relative;
 }
 
 section.certifiates{

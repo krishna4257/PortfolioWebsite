@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.backico{
+    background: white;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    top:0.8rem;
+    left:1.6rem;
+    cursor: pointer;
+  }
+
+.navbar-brand{
+    padding-left: 5rem;
+}
+.navbar{
+    background-color: black;
+}
+
+/*Body Styling*/
+section.body{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    column-gap: 5px;
+    color: white;
+    background-color: black;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+}
+
+section.body .right{
+    padding: 4rem 2rem 0rem 2rem;
+}
+section.body .right .qoute{
+     color: rgb(203, 203, 203);
+     margin-left: 2rem;
+}
+
+section.body .right .matter{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 20px;
+}
+
+/* footer Styling */
+footer{
+    background: transparent;
+    font-family: "Open Sans";
+    color: white;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer-copyright{
+    color: white;
+    word-spacing: 2px;
+    opacity: .4;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.mb-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0 0.5rem 0;
+}
+.mb-3 a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.mb-3 a svg{
+    font-size: 0.8rem;
+    transition: red .3s ease-in-out;
+}
+.mb-3 a:hover svg{
+    color: #999898;
+}

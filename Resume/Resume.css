@@ -62,6 +62,7 @@ nav .inner button{
     color: #eff2f9;
     font-size: 14px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 nav .inner .logo span{
